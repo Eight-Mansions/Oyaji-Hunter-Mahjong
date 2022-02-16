@@ -1,0 +1,8 @@
+cd/*.iso
+cd/orig/*
+cd/working/*
+
+*.xdelta3
+*.log
+
+error.txt
