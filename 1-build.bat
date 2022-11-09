@@ -14,4 +14,8 @@ echo Convert bmp sprite sheets to anims
 tools\BMPTo3DOAnim.exe 24 24 anims\SUB_TITLE01.bmp cd\working\jyanpai\AnimationData\sub_title\SUB_TITLE01.ANIM
 echo:
 
+echo Copy all subbed movies over
+copy movies\HunterMovie\* cd\%working_name%\HunterMovie
+echo:
+
 pause

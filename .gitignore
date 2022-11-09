@@ -2,6 +2,9 @@ cd/*.iso
 cd/orig/*
 cd/working/*
 
+Movies_original
+
+*.fstree
 *.xdelta3
 *.log
 
