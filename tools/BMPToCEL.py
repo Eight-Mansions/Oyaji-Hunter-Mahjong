@@ -26,7 +26,7 @@ for bmp_path in Path(input_directory).rglob("*.bmp"):
     # Since it doesn't report errors on stderr, scan and output any errors only
     for output_line in process_output.stdout.splitlines():
         output_line = output_line.decode("utf-8")
-        if "must" in output_line:
+        if "must" in output_line or "BMP is not" in output_line:
             print("Error: " + bmp_path)
             print(output_line)
             print("\n")
