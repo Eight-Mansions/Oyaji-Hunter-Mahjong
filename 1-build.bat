@@ -1,21 +1,22 @@
 @echo off
 set working_name=working
 
-echo Clearing out the old files and create a clean workspace
+echo Clearing out the old files and creating a clean workspace...
 del /s /q cd\%working_name%\* 1>nul
 Xcopy /E /q cd\orig\ cd\%working_name%\ 1>nul
 echo:
 
-echo Convert all images to cels and insert
+echo Converting all images to cels and insert...
 python tools\BMPToCEL.py images\ cd\working\
 echo:
 
-echo Convert bmp sprite sheets to anims
-tools\BMPTo3DOAnim.exe 24 24 anims\SUB_TITLE01.bmp cd\working\jyanpai\AnimationData\sub_title\SUB_TITLE01.ANIM
+echo Converting bmp sprite sheets to anims...
+python tools\BMPDirectoryToAnim.py anims anims_pre_process cd\working
+::tools\BMPTo3DOAnim.exe 24 24 anims\SUB_TITLE01.bmp cd\working\jyanpai\AnimationData\sub_title\SUB_TITLE01.ANIM
 echo:
 
-echo Copy all subbed movies over
-copy movies\HunterMovie\* cd\%working_name%\HunterMovie
+echo Copying all subbed movies over...
+copy movies\HunterMovie\* cd\%working_name%\HunterMovie 1>nul
 echo:
 
 pause
