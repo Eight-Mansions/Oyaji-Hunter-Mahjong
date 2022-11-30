@@ -6,7 +6,7 @@ del /s /q cd\%working_name%\* 1>nul
 Xcopy /E /q cd\orig\ cd\%working_name%\ 1>nul
 echo:
 
-echo Converting all images to cels and insert...
+echo Converting all images to cels and inserting...
 python tools\BMPToCEL.py images\ cd\working\
 echo:
 
