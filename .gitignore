@@ -10,3 +10,4 @@ anims_pre_process
 *.log
 
 error.txt
+/.vs
