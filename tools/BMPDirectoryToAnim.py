@@ -39,7 +39,7 @@ for bmp_path in input_directory.rglob("*.bmp"):
 for anim_folder in anim_folders:
     # Step 2: Make a sprite sheet based off the images in the folder
     print(f"Processing: {anim_folder}")
-    frames = glob.glob(os.path.join(str(anim_folder), "*.bmp"))
+    frames = sorted(glob.glob(os.path.join(str(anim_folder), "*.bmp")))
     frame_count = len(frames)
 
     # Determine the size of the sprite sheet using the frame count and the first image dimensions
