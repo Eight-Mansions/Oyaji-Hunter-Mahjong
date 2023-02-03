@@ -6,7 +6,7 @@ Movies_original
 anims_pre_process
 
 *.fstree
-*.xdelta3
+*.xdelta
 *.log
 
 error.txt
