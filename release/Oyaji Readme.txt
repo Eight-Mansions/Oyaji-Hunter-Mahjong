@@ -47,12 +47,19 @@ to xdelta to help with compatibility. The .xdelta files are located in the
   menu.
   HOWEVER! A true Hunter completes the game from start to finish!
 
+## Known Untranslated Text ##
+- When an oyaji attacks, a red jagged bubble appears with the name of the text.
+  Unfortunately, the old ANIM tool does not accept the dimensions and the game
+  refuses any resizing unlike other images in game. So until the new 3DO image
+  tool 3it adds ANIM support, we don't have a way to fix it.
+
 ## Credits ##
 SnowyAria - Translation, Video Edits, Image Edits
 Yuvi - Image Edits
 blametherobots - Image Edits
 
 ## Special Thanks ##
+trapexit - 3it 3DO Image Tool creating and image debugging help
 (THIS COULD BE YOU!) - Playtesting!
 
 ## Contact ##
