@@ -11,7 +11,7 @@ python tools\BMPToCEL.py images\ cd\working\
 echo:
 
 echo Converting bmp sprite sheets to anims...
-python tools\BMPDirectoryToAnim.py anims anims_pre_process cd\working
+::python tools\BMPDirectoryToAnim.py anims anims_pre_process cd\working
 ::tools\BMPTo3DOAnim.exe 24 24 anims\SUB_TITLE01.bmp cd\working\jyanpai\AnimationData\sub_title\SUB_TITLE01.ANIM
 echo:
 

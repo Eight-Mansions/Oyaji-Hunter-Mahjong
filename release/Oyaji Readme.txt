@@ -1,5 +1,5 @@
 ####################################
-Oyaji Hunter Mahjong (February 2023)
+Oyaji Hunter Mahjong (April 2023)
 ####################################
 
 ## Intro ##
@@ -27,8 +27,8 @@ anticipated. I hope everyone’s satisfied with it!”
 ### Other OS ###
 This release uses a basic .xdelta patch, so any web-based patching tool or
 OS-specific .xdelta patcher should work okay. We've switched from xdelta3
-to xdelta to help with compatibility. The .xdelta files are located in the
-"patch_data" folder. Apply the appropriate patch to each disc.
+to xdelta to help with compatibility. The .xdelta file is located in the
+"patch_data" folder. Apply the patch to your disc.
 
 ## Tips ##
 - Included in this release is a PDF version of the ultra secret Staff Room!
@@ -46,12 +46,16 @@ to xdelta to help with compatibility. The .xdelta files are located in the
   "Up, Right, Down, Left, Up, Down, Left, Right, L, R, B, C, B" to open the
   menu.
   HOWEVER! A true Hunter completes the game from start to finish!
+  # WARNING # You can't see the end credits if you use the level select code!
 
 ## Known Untranslated Text ##
 - When an oyaji attacks, a red jagged bubble appears with the name of the text.
-  Unfortunately, the old ANIM tool does not accept the dimensions and the game
-  refuses any resizing unlike other images in game. So until the new 3DO image
-  tool 3it adds ANIM support, we don't have a way to fix it.
+- When you win a round (Hunter Chance!) or lose (Punishment Time!)
+
+Unfortunately, the old ANIM tool does not accept the existing dimensions and the
+game refuses any resizing unlike other anims in game. So until the new 3DO image 
+tool 3it adds ANIM support, we don't have a way to fix it. We do have images
+ready, so we can update the patch then!
 
 ## Credits ##
 SnowyAria - Translation, Video Edits, Image Edits
@@ -60,7 +64,8 @@ blametherobots - Image Edits
 
 ## Special Thanks ##
 trapexit - 3it 3DO Image Tool creating and image debugging help
-(THIS COULD BE YOU!) - Playtesting!
+fixel - ODE saves so many blank CDs testing on console!
+Shentok, Tacowavable (THIS COULD BE YOU!) - Playtesting!
 
 ## Contact ##
 Have any issues or run into any problems? Feel free to drop by our discord here:
