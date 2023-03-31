@@ -16,6 +16,20 @@ or a theme song, but somehow it just all became a bigger project than
 anticipated. I hope everyone’s satisfied with it!” 
 – Kenji Eno, Producer
 
+----------------------------------------------------------------------------------
+
+*************************
+## COMPATIBILITY ISSUE ##
+*************************
+*!* The game has a random crash issue on ODE devices as of this writing! *!*
+
+A CD-R will run just fine on console and this bug is present on the retail
+copy of the game. We've let both Mnemo and Fixel know of the issue, so we'll
+update this README if a solution is found. In the meantime, either an emulator
+or a blank CD will work just fine.
+
+----------------------------------------------------------------------------------
+
 ## Patch Instructions ##
 * The patcher expects the ISO version of the game.
 
@@ -48,23 +62,14 @@ to xdelta to help with compatibility. The .xdelta file is located in the
   HOWEVER! A true Hunter completes the game from start to finish!
   # WARNING # You can't see the end credits if you use the level select code!
 
-## Known Untranslated Text ##
-- When an oyaji attacks, a red jagged bubble appears with the name of the text.
-- When you win a round (Hunter Chance!) or lose (Punishment Time!)
-
-Unfortunately, the old ANIM tool does not accept the existing dimensions and the
-game refuses any resizing unlike other anims in game. So until the new 3DO image 
-tool 3it adds ANIM support, we don't have a way to fix it. We do have images
-ready, so we can update the patch then!
-
 ## Credits ##
 SnowyAria - Translation, Video Edits, Image Edits
-Yuvi - Image Edits
+Yuvi - Miracle Hacking, Image Edits
 blametherobots - Image Edits
 
 ## Special Thanks ##
 trapexit - 3it 3DO Image Tool creating and image debugging help
-fixel - ODE saves so many blank CDs testing on console!
+fixel - ODE saves so many blank CDs testing translations like this and others!
 Shentok, Tacowavable (THIS COULD BE YOU!) - Playtesting!
 
 ## Contact ##
